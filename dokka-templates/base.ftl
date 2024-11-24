@@ -2,7 +2,7 @@
 <#import "includes/header.ftl" as header>
 <#import "includes/footer.ftl" as footer>
 <!DOCTYPE html>
-<html lang="en-US" class="no-js">
+<html lang="zh-CN" class="no-js">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <@page_metadata.display/>
@@ -43,13 +43,13 @@
             <#if "${process.env.DOKKA_FEEDBACK}" == "true">
             <div class="feedback-wrapper">
                 <div class="feedback">
-                    <div class="feedback__block" data-test="feedback-left"><p class="feedback__text">Thanks for your feedback!</p></div>
+                    <div class="feedback__block" data-test="feedback-left"><p class="feedback__text">感谢反馈！</p></div>
                     <div class="feedback__block feedback__block--active" data-test="feedback">
                         <div class="wt-row wt-row_size_xs wt-row_wide wt-row_wrap wt-row_justify_start">
-                            <div class="wt-col-inline feedback__text">Was this page helpful?</div>
+                            <div class="wt-col-inline feedback__text">此页面有帮助吗？</div>
                             <div class="wt-col-inline">
-                                <button data-test="feedback-yes" type="button" class="_main_joawza_17 _modeOutline_joawza_356 _sizeS_joawza_92 _alignIconLeft_joawza_77 feedback__button">Yes</button>
-                                <button data-test="feedback-no" type="button" class="_main_joawza_17 _modeOutline_joawza_356 _sizeS_joawza_92 _alignIconLeft_joawza_77 feedback__button">No</button>
+                                <button data-test="feedback-yes" type="button" class="_main_joawza_17 _modeOutline_joawza_356 _sizeS_joawza_92 _alignIconLeft_joawza_77 feedback__button">有</button>
+                                <button data-test="feedback-no" type="button" class="_main_joawza_17 _modeOutline_joawza_356 _sizeS_joawza_92 _alignIconLeft_joawza_77 feedback__button">没有</button>
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                       href="https://www.jetbrains.com/company/privacy.html" target="_blank">JetBrains Privacy Policy</a>.
             </div>
             <div class="feedback__footer">
-                <button data-test="feedback-send" title="Send feedback" name="send" type="submit" disabled="disabled" class="_main_joawza_17 _modeClassic_joawza_135 _sizeM_joawza_99 _alignIconLeft_joawza_77 _disabled_joawza_61 button_disabled">Send feedback</button>
+                <button data-test="feedback-send" title="Send feedback" name="send" type="submit" disabled="disabled" class="_main_joawza_17 _modeClassic_joawza_135 _sizeM_joawza_99 _alignIconLeft_joawza_77 _disabled_joawza_61 button_disabled">发送反馈</button>
             </div>
         </form>
     </div>

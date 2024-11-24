@@ -1,14 +1,15 @@
-[//]: # (title: Get started with Kotlin)
+[//]: # (title: 开始使用 Kotlin)
 
-Kotlin is a modern but already mature programming language designed to make developers happier.
-It's concise, safe, interoperable with Java and other languages, and provides many ways to reuse code between multiple platforms for productive programming.
+Kotlin 是一门现代且已十分成熟的编程语言，旨在让开发者的工作更加愉悦。
+它简洁、安全，能够与 Java 及其他语言进行互操作，并提供多种方式在多个平台之间复用代码，从而提升开发效率。
 
-To start, why not take our tour of Kotlin? This tour covers the fundamentals of the Kotlin programming language and can
-be completed entirely within your browser.
+作为开始，为什么不试试我们的 Kotlin 导览？
+这个导览涵盖了 Kotlin 编程语言的基础知识，并且可以完全在浏览器中完成。
+
 
 <a href="kotlin-tour-welcome.md"><img src="start-kotlin-tour.svg" width="700" alt="Start the Kotlin tour" style="block"/></a>
 
-## Install Kotlin
+## 安装 Kotlin
 
 Kotlin is included in each [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) and [Android Studio](https://developer.android.com/studio) release.
 Download and install one of these IDEs to start using Kotlin.

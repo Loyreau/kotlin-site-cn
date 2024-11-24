@@ -7,7 +7,7 @@
 		<contribute-url>https://github.com/JetBrains/kotlin-web-site/edit/master/docs/</contribute-url>
 		<include-in-head>thirdparty/custom-settings.html</include-in-head>
 		<analytics-head-script-file>thirdparty/dpk-gtm-analytics.html</analytics-head-script-file>
-		<website-title>%instance% Documentation</website-title>
+		<website-title>%instance% 中文文档</website-title>
 		<automaticLinkSummaries>false</automaticLinkSummaries>
 		<kotlin-latest-url>%kotlinLatestUrl%</kotlin-latest-url>
 		<product-web-url>%kotlinLatestUrl%</product-web-url>
